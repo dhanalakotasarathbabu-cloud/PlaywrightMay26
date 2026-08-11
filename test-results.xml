@@ -1,0 +1,14 @@
+<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="16.824677000000005">
+<testsuite name="checkbox.spec.ts" timestamp="2026-08-10T15:30:50.229Z" hostname="chromium" tests="3" failures="0" skipped="0" time="14.131" errors="0">
+<testcase name="check the checkboxes" classname="checkbox.spec.ts" time="8.166">
+</testcase>
+<testcase name="test 2 check boxes" classname="checkbox.spec.ts" time="3.034">
+</testcase>
+<testcase name="test3 check boxes using for loop" classname="checkbox.spec.ts" time="2.931">
+<system-out>
+<![CDATA[number of check boxes [33m6[39m
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
