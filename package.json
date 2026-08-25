@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "playwright test",
+    "allure": "allure serve allure-results",
+    "test:allure": "playwright test && allure serve alure results"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -12,5 +16,9 @@
     "@playwright/test": "^1.61.0",
     "@types/node": "^26.1.1",
     "allure-playwright": "^3.10.2"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.1",
+    "xlsx": "^0.18.5"
   }
 }

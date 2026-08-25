@@ -30,7 +30,7 @@ await page.waitForTimeout (3000);
 })
 
 // Verify the value in dropdown is selected or not
-test.only('verify dropdown value', async ({page}) => {
+test('verify dropdown value', async ({page}) => {
     await page.goto('https://demowebshop.tricentis.com/');  
     await page.getByRole('link', { name: 'Books' }).first().click();
 	

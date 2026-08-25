@@ -14,7 +14,7 @@ test ("multiselect drop down", async({page})=>{
 
     })
 
-    test.only ("multiselecting drop down items", async({page})=>{
+    test("multiselecting drop down items", async({page})=>{
 
 
         await page.goto("https://obstaclecourse.tricentis.com/Obstacles/94441/retry");
