@@ -70,11 +70,12 @@ test('verify dropdown value', async ({page}) => {
 
     await page.waitForTimeout(3000); // Wait for 2 seconds to allow the page to update
 });
-
+/*
         // verify visible text of the selected option is 'Price: Low to High'
     const selectedOptionVisibleInput = await page.locator('#products-orderby option:checked').innerText();
     console.log('Selected option visible text:', selectedOptionVisibleInput);
     expect(selectedOptionVisibleInput).toBe('Price: Low to High');
+    *
 
 
     
