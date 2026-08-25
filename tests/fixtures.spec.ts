@@ -61,7 +61,7 @@ test ("print browser name", async({page, browserName})=> {
 });
 
 // Handling authentication pop ups using browser fixture.
-test.only ("handle Authentication popups using browser fixture", async({browser})=>{
+test("handle Authentication popups using browser fixture", async({browser})=>{
 
     const context = await browser.newContext({httpCredentials: {username: 'admin','password':'admin'}});
     const page = await context.newPage();
@@ -72,7 +72,7 @@ test.only ("handle Authentication popups using browser fixture", async({browser}
 
 // Handling authentication pop ups using page fixture.
 
-test.only (" handling authentication pop ups using page fixture", async({page})=>{
+test (" handling authentication pop ups using page fixture", async({page})=>{
 
 await page.goto ("https://admin:admin@the-internet.herokuapp.com/basic_auth");
 

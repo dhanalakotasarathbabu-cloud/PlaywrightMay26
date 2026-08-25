@@ -44,7 +44,7 @@ await expect(page.getByText('Invalid credentials')).toBeVisible();
 })
 */
 
-test.only("username blank",async({page})=>{
+test("username blank",async({page})=>{
 
 await page.goto ("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 
